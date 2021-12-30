@@ -4,7 +4,7 @@
 만약 사용자가 암호화하는 자바코드를 만들어서 String를 암호화 시킬때, 관리를 위해 암호화된 String를 서버에 전달해야하는데, 암호화된 String에는 %,#등의 특수문자들이 생기기 때문에 서로 연동이 안되는 부분이 생긴다. 즉, 해석을 할 수 없다는 것이다.
 따라서 %,#,! 등의 기호를 텍스트로 바꿔 전달하고, 서버에서는 전달받은 암호화된 String을 원래대로 복구 시켜 순수 암호화 String를 저장하고 관리하게 된다.<br>
 
-나의 경우 img를 api로 전달받으면서 base64로 encoding된 상태이며, 해당 img_base64_encoded 값을 다시 base64_decoding 시켜, 원본 img_buffer와 img_buffer_size를 FaceDetect 함수에 전달하면, 해당 FaceDetect에서 넘겨받은 imgBuffer/size를 openCV로 읽어 드리고, 디텍트를 진행한다.<br>
+나의 경우 img를 api로 전달받으면서 base64로 encoding된 상태이며, 해당 img_base64_encoded 값을 다시 base64_decoding 시켜, 원본 img_buffer와 img_buffer_size를 FaceDetect 함수에 전달하면, 해당 FaceDetect에서 넘겨받은 imgBuffer/size를 openCV로 읽어 드리고, 디텍트를 진행한다.<br><br>
 이 과정에서 base64 인코딩된 상태, 그리고 웹API를 통해 img등 데이터를 넘겨 받을때, 이미지가 base64로 인코딩 되서 넘긴다는 것 등의 이해가 필요하다. 다시 디코딩해서 openCV에서 imread(imgpath) 말고, imread_buffer(imgBuffer)로 읽는 형태로 구현이 필요한 것이다. <br>
 ![img.png](../img/base64_4.png)
 <br>
