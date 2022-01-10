@@ -25,7 +25,7 @@
 3. 폴더 경로에 대한 link 설정 (현재 위치에 windows 폴더를 링크)
 ![img.png](../img/mklink_3.png)
 
-4. 결과 확인
+4. 결과 확인<br>
 ![img.png](../img/mklink_4.png)
  
 <br>
