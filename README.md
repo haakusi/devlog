@@ -24,3 +24,5 @@
 
 [4. 0xC0000005:0x0000000 예외처리에러: 원인/해결법 - c++](DevSense/cpp_0xC0000005.md)
 
+[5. 동적 메모리 해제 후, NULL 대입 이유 - c++](DevSense/memoryFree.md)
+
