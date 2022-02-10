@@ -17,7 +17,7 @@ Request, Response 느낌을 느껴보자.
 
 ### 왜 이렇게 오래걸려? pandding?
 #### (결론) c++ boost! read_json() 때문! <br> + Debug Mode에서 Break Point를 잡을 때, 간혹 다음 Point로 넘어갈때 오래걸리기도 하니 제거하고도 돌려보자.. 꼭!
-아래 사진이 보이는가? 다른 upload_picture 들은 100~500ms인데, 자기 혼자 15~20s를 잡아 먹고 있다. <br>
+아래 사진이 보이는가? 다른 upload_picture 들은 ~100-500ms인데, 자기 혼자 15-20s~를 잡아 먹고 있다. <br>
 처음에는 해당 사진 용량을 다른 사진들과 비교해보니, 보통 1MB 미만인데, 해당 사진은 7MB 이였다. <br><br>
 
 들었던 생각.
