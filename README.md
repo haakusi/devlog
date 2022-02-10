@@ -1,7 +1,7 @@
 # devlog
 
 ### 요즘은..
-- 돈을 버는게 뭐가 있을까? NFT.. 메타버스.. AI.. 그래 어디한번 MSA기반 Architect + BlockChain Coin + AI Solution으로 뭔가 하나 프로젝트 해보자 (haakusi; 22.02.10)
+- 돈을 버는게 뭐가 있을까? NFT.. 메타버스.. AI.. 그래 어디한번 MSA기반 Architect + BlockChain Coin + AI Solution으로 돈 벌어 보자 (haakusi; 22.02.10)
 
 ### 어느날 눈에 밟혀 기분이 좋았던 글귀
 - 일을 하는 것도 중요하지만 그에 못지 않게, 일을 어떻게 하느냐도 중요합니다. (소프트웨어장인; 22.01.11)
