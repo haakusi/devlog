@@ -1,14 +1,17 @@
 # devlog
 
 ### 요즘은..
-- 나태해지지 말자.. 부지런하게, 모든 태도와 기본에 충실하게 목표치 세개만 습관으로 100일만 찍자(운동,코딩,자격증) (haakusi; 22.03.07)
-- 돈을 버는게 뭐가 있을까? NFT.. 메타버스.. AI.. 그래 어디한번 MSA기반 Architect + BlockChain Coin + AI Solution으로 돈 벌어 보자 (haakusi; 22.02.10)
+- 주니어와 중니어의 어딘가에서, 주어진 것들을 수행하며, 조금 더 나아가는 S/W 관점에서 의식하고 프로그래밍을 또 다시 시작 (haaku; 22.07.05)
+- 나태해지지 말자.. 부지런하게, 모든 태도와 기본에 충실하게 목표치 세개만 습관으로 100일만 찍자(운동,코딩,자격증) (haaku; 22.03.07)
+- 돈을 버는게 뭐가 있을까? NFT.. 메타버스.. AI.. 그래 어디한번 MSA기반 Architect + BlockChain Coin + AI Solution으로 돈 벌어 보자 (haaku; 22.02.10)
 
 ### 어느날 눈에 밟혀 기분이 좋았던 글귀
 - 일을 하는 것도 중요하지만 그에 못지 않게, 일을 어떻게 하느냐도 중요합니다. (소프트웨어장인; 22.01.11)
 - 커리어에서 옳고 그름은 없다. 지식은 영원하고 돈/안정은 영원할 수 없다. 어떤 연유로든 직장을 떠날때 남는 것은 오로지 지식, 경험 뿐이다. (소프트웨어장인; 22.01.17)
 
 ### 어느날 나 자신에게 하고 싶은 말
+- 각 언어마다 컨벤션이 있지만, 클린 코드를 지향하자. 메서드 파라미터는 1개만, 인덴트도 한번만 활용하며 클리어 해보자.
+- 무작정 짜내려가는 코드에서 나아가, 중복을 피하고, 의존성을 낮추는 효율적인 S/W 관점에서 프로그래밍 한줄 한줄에 정성을 다하자.
 - 이 공간에서 스스로 스페셜리스트라 생각할 정도로 목표를 향해 최선을 다하는가, <br>
 주어진 것을 진행하는데 끝내면 안되고, 그것을 한땀한땀 장인 정신으로 열정으로 하기.
 - 항상 더 배우고 더 나은 소프트웨어 장인이 되는것에 집중! python 같은 program language를 만드는 그날 까지
@@ -20,16 +23,17 @@
 
 ### all of devlog
 
-[1. Base64 Encoding/Decoding에 대하여 - c++](DevSense/base64.md) - 추후 웹에서 Base64 Encoding/Decoding 페이지 추가
-
+[1. Base64 Encoding/Decoding에 대하여 - c++](DevSense/base64.md)
+<br>
 [2. mklink 개념 및 활용하기 - window](DevSense/mklink.md)
-
+<br>
 [3. 배열 삭제 : delete와 splice에 대해 - JavaScript](DevSense/delete_splice.md)
-
+<br>
 [4. 0xC0000005:0x0000000 예외처리에러: 원인/해결법 - c++](DevSense/cpp_0xC0000005.md)
-
+<br>
 [5. 동적 메모리 해제 후, NULL 대입 이유 - c++](DevSense/memoryFree.md)
-
+<br>
 [6. XCOPY 대해(fit.visual studio 빌드 후 이벤트 활용 하기)](DevSense/xcopy.md)
-
+<br>
 [7. API 콜 Image Upload, chrome padning에 대해(문제는 c++ boost; read_json 함수)](DevSense/image_upload.md)
+<br>
